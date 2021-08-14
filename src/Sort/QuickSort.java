@@ -40,7 +40,7 @@ public class QuickSort {
         int i = left;
         int j = right;
         while (i < j){
-            // 从右往左找第一个小于基数的数(必须先从右边开始找)
+            // 从右往左找第一个小于基数的数(选择最左边为参考，必须先从右边开始找)
             while (array[j] >= p && i < j){
                 j--;
             }
